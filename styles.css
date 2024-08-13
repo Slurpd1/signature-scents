@@ -1,5 +1,63 @@
-.container {
+.nav-bar {
     display: flex;
-    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
 
+.header-logo {
+    padding-top: 10px;
+    padding-left: 20px;
+    flex-basis: 50%;
+    padding-bottom: 2px;
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+.section-one {
+    background-color: #1F2937;
+}
+
+.header-links {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.quote-text {
+    padding: 100px 100px 0px 100px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote-author {
+    text-align: end;
+    margin: 0px 120px 0px 0px;
+    padding-bottom: 60px;
+}
+
+.quote-wrapper {
+    background-color: #E5E7EB;
+}
+
+.double-info-section {
+    display: flex;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hover a {
+    color: darkslategray;
+}
+
+img {
+    height: 200px;
+    width: 300px;
 }
