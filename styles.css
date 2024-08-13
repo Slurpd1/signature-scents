@@ -45,6 +45,16 @@
 
 .double-info-section {
     display: flex;
+    padding: 100px
+}
+
+.sign-up-section {
+    display: flex;
+}
+
+.left-signup {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -59,5 +69,5 @@ hover a {
 
 img {
     height: 200px;
-    width: 300px;
+    width: 450px;
 }
