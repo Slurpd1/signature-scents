@@ -47,6 +47,12 @@
     display: flex;
 }
 
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
 
 a {
     text-decoration: none;
@@ -60,4 +66,9 @@ hover a {
 img {
     height: 200px;
     width: 300px;
+}
+
+body {
+    margin: 8px;
+    background-color: #1F2937;
 }
